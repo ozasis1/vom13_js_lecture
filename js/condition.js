@@ -32,7 +32,7 @@
    
 //    else {
 //     console.log('오후 입니다.')
-   }
+   
 
 // 3. if else if 조건문
 
@@ -109,13 +109,13 @@
 // 상황 연산자는 값이다. << 변수에 저장이 가능하다.
 
 
-const age = 20;
-const checkAge = age >= 18;
+// const age = 20;
+// const checkAge = age >= 18;
 
-if (checkAge) {
-    console.log('성인 입니다.');
-} else {
-    console.log('미성년자 입니다.');
-}
+// if (checkAge) {
+//     console.log('성인 입니다.');
+// } else {
+//     console.log('미성년자 입니다.');
+// }
 
-checkAge? console.log('성인 입니다.') : console.log('미성년자 입니다.');
+// checkAge? console.log('성인 입니다.') : console.log('미성년자 입니다.');
