@@ -105,8 +105,13 @@ const trStr = str.trim();
 console.log(':'+ trStr + '+');
 
 // - split() : 문자열에 대해 매개변수를 기준으로 잘라 배열을 만든다
+const url = "http://www.abc.com?q=4";
+const cutUrl = url.split('=');
+console.log(cutUrl);
 
 // - Math 객체 : 수학과 관련된 다양한 연산을 할 수 있도록 자바스크립트에서는 Math객체를 제공하며, 여기에 포함된 메서드를 활용한다.
+console.log(Math.floor(Math.random()*20).toFixed
+(2));
 
 // - Math.random() : 0과 1 사이의 값을 난수로 반환한다.
 
