@@ -121,7 +121,7 @@ const src = `${thisAttr}.jpg`;
 
 // 4. imgdml src를 변수화하여 src 속성값 변경'
 img.setAttribute('src',src);
-});
+
 
 
 // 4. 스타일 조작
